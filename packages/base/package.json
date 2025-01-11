@@ -1,0 +1,20 @@
+{
+  "name": "@zine/base",
+  "version": "0.0.1",
+  "main": "./build/base.js",
+  "types": "./build/base.d.ts",
+  "author": "Gurvir Singh <zinejs07@gmail.com>",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@zine/router": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "@zine/router": "workspace:^"
+  }
+}

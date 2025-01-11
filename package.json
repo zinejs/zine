@@ -1,0 +1,14 @@
+{
+  "name": "zine",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": "Gurvir Singh <zinejs07@gmail.com>",
+  "scripts": {
+    "build": "pnpm run -r build",
+    "dev": "pnpm run -r --parallel --aggregate-output dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsc": "^2.0.4"
+  }
+}
