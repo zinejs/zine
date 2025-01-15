@@ -1,0 +1,12 @@
+{
+  "private": "true",
+  "name": "@zine/sample-app",
+  "scripts": {
+    "dev": "nodemon --exts 'ts,tsx' --exec 'tsx zine.ts'"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
